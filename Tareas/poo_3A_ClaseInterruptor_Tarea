@@ -1,0 +1,36 @@
+Conectar 4 Leds en los pines 13, 12, 11, 10. Crear 4 objetos tipo Led con los nombres Led1, Led2, Led3, Led4.
+
+
+Conectar dos interruptores en los pines 9 y 8. Crear 2 objetos con los nombres de Btn1 y Btn2 respectivamente.
+
+
+1 = Indica ON            0 = Indica OFF
+
+
+
+Led1 (0) Led2 (0) Led 3 (0) Led 4 (0)
+
+  |
+ ___
+-- -- Btn1       
+  
+  |
+ ___
+-- -- Btn2
+
+Suponiendo que todos los Leds estñán apagados
+
+Presionar Btn1 1 Vez 	--> Led1 (1) Led2 (0) Led 3 (0) Led 4 (0)
+Presionar Btn1 2 Veces 	--> Led1 (1) Led2 (1) Led 3 (0) Led 4 (0)
+Presionar Btn1 3 Veces 	--> Led1 (1) Led2 (1) Led 3 (1) Led 4 (0)
+Presionar Btn1 4 Veces 	--> Led1 (1) Led2 (1) Led 3 (1) Led 4 (1)
+Presionar Btn1 5 Veces 	--> Led1 (0) Led2 (0) Led 3 (0) Led 4 (0), se reinicia el contador de Btn1 a 0
+
+Suponiendo que todos los Leds estñán encendidos
+
+Presionar Btn2 1 Vez 	--> Led1 (1) Led2 (1) Led 3 (1) Led 4 (0)
+Presionar Btn2 2 Veces 	--> Led1 (1) Led2 (1) Led 3 (0) Led 4 (0)
+Presionar Btn2 3 Veces 	--> Led1 (1) Led2 (0) Led 3 (0) Led 4 (0)
+Presionar Btn2 4 Veces 	--> Led1 (0) Led2 (0) Led 3 (0) Led 4 (0)
+Presionar Btn2 5 Veces 	--> Led1 (1) Led2 (1) Led 3 (1) Led 4 (1), se reinicia el contador de Btn2 a 0
+
